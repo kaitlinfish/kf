@@ -9,23 +9,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body class="container">
-    <h1>Book A Room</h1>
-    <form method="post" style="max-width:500px;">
+   <form method="post" style="max-width:500px;">
+    <h1>Book a flight at Kaitlin's airline!</h1>
     <div class="form-group">
-      <label>Select Room Type: </label>   
-      <label>You may choose from:</label>
-      <label>Luxury</label>
-      <label>Common</label>
-      <label>Dicounted Room</label>
-     <input class="form-control" type="text" name="roomType">
+      <label>Pick a flight class</label>
+      <label>You May choose from:</label>
+      <label>First-Class</label>
+      <label>Economy</label>
+       <input class="form-control" type="text" id = "flightClass" name="flightClass">
     </div>
-    
-    <div class="form-group">
-      <label>Number of Guests Staying With you</label> 
-      <input class="form-control" type="number" name="numOfGuests">
 
-      <input type="submit" value="Make Reservation">
+    <div class="form-group">
+        <label>Select Amount Of Seats Needed</label>
+         <input class="form-control" type="number" id= "numOfSeats" name="numOfSeats">
     </div>
-    </form>
+    <input type="submit" value="Book Flight">
+    </form> 
 </body>
 </html>

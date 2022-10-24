@@ -11,17 +11,16 @@
 <body>
     <div class="jumbotron"></div>
     <h1>Hotel Room Bookings</h1>
-   <!--
-    <h2 class="display" th:text="'Your selected RoomType: ' + ${RoomType}"></h2>
-    <h2 class="display" th:text="'The number of guests staying: ' + ${NumOfGuests}"></h2> -->
+     <!--
+    <h2 class="display" th:text="'Your selected Flight Class: ' + ${RoomType}"></h2>
+    <h2 class="display" th:text="'The number of Seats booked: ' + ${NumOfGuests}"></h2>
+    -->
 
     <h1 th:text="${message}"></h1>
+   
 
-    <a href="/addHotel">Make Another Reservation</a>
+    <a href="/addFlight">Book Another flight</a>
 
     <a href="/">Return To Main Screen</a>
 </body>
 </html>
-
- <!--hotel bookings display page that will display the room type, and number of guests that will be staying in
-the room with them -->
