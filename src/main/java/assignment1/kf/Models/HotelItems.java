@@ -1,5 +1,8 @@
 package assignment1.kf.Models;
 
+
+// this is the class that initalizes our 2 input variables to book a hotel room. the roomType and numOfGuests.
+// a constructor is also created, along with getter and setters for the two values.
 public class HotelItems {
     String roomType;
     Integer numOfGuests;

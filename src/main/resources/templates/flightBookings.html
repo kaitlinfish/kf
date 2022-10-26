@@ -10,17 +10,16 @@
 </head>
 <body>
     <div class="jumbotron"></div>
-    <h1>Hotel Room Bookings</h1>
-     <!--
-    <h2 class="display" th:text="'Your selected Flight Class: ' + ${RoomType}"></h2>
-    <h2 class="display" th:text="'The number of Seats booked: ' + ${NumOfGuests}"></h2>
-    -->
+    <h1 style="background-color:rgb(177, 168, 234)"> Your Hotel Room Bookings</h1>
 
     <h1 th:text="${message}"></h1>
    
+    <a class = "btn btn-primary btn-lg"  style = "background-color:darkslateblue" href="/addFlight">Book Another flight</a>
 
-    <a href="/addFlight">Book Another flight</a>
-
-    <a href="/">Return To Main Screen</a>
+    <a class = "btn btn-primary btn-lg"  style = "background-color:darkslateblue" href="/">Return To Main Screen</a>
 </body>
 </html>
+
+ <!--flight bookings display page that will display the message declared in hotelServices.java. It should display
+    whatever input the user entered in addFlight.html, with a button link option to either book another flight or return
+    to the home page-->

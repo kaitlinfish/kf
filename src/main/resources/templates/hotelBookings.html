@@ -11,17 +11,15 @@
 <body>
     <div class="jumbotron"></div>
     <h1>Hotel Room Bookings</h1>
-   <!--
-    <h2 class="display" th:text="'Your selected RoomType: ' + ${RoomType}"></h2>
-    <h2 class="display" th:text="'The number of guests staying: ' + ${NumOfGuests}"></h2> -->
-
+ 
     <h1 th:text="${message}"></h1>
 
-    <a href="/addHotel">Make Another Reservation</a>
+    <a style = "background-color:darkslateblue" href="/addHotel">Make Another Reservation</a>
 
-    <a href="/">Return To Main Screen</a>
+    <a  style = "background-color:darkslateblue" href="/">Return To Main Screen</a>
 </body>
 </html>
 
- <!--hotel bookings display page that will display the room type, and number of guests that will be staying in
-the room with them -->
+ <!--hotel bookings display page that will display the message declared in hotelServices.java. It should display
+    whatever input the user entered in addHotel.html. There are also button links to either make another reservation 
+    or return to the homepage-->

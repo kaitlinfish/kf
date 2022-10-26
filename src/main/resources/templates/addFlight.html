@@ -10,12 +10,15 @@
 </head>
 <body class="container">
    <form method="post" style="max-width:500px;">
-    <h1>Book a flight at Kaitlin's airline!</h1>
+    <h1 style="background-color:rgb(177, 168, 234)">Book a flight at Kaitlin's airline!</h1>
     <div class="form-group">
-      <label>Pick a flight class</label>
-      <label>You May choose from:</label>
-      <label>First-Class</label>
-      <label>Economy</label>
+      <label>Pick a flight class. You may choose from: </label>
+     <ul> 
+      <li>First-Class</li>
+      <li>Economy</li>
+      <li>Buisness</li>
+     </ul>
+
        <input class="form-control" type="text" id = "flightClass" name="flightClass">
     </div>
 
@@ -27,3 +30,7 @@
     </form> 
 </body>
 </html>
+
+<!--Here is the page that allows the user to input what type of room they'd like to book and the number of seats. 
+input class will allows users to enter those values. The input type=submit is the button that will allow users to submit their 
+input, which will then get processed in the requestMapping code within MainController.java-->

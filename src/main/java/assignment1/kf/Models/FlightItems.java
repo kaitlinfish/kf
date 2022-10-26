@@ -1,4 +1,7 @@
 package assignment1.kf.Models;
+// this is the class that initalizes our 2 input variables to book a flight. the flightclass and numOfSeats.
+// a constructor is also created, along with getter and setters for the two values.
+
 
 public class FlightItems {
     String flightClass;

@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body class="container">
-    <h1>Book A Room</h1>
+    <h1 style = "background-color:rgb(177, 168, 234)">Book A Room</h1>
     <form method="post" style="max-width:500px;">
     <div class="form-group">
-      <label>Select Room Type: </label>   
-      <label>You may choose from:</label>
-      <label>Luxury</label>
-      <label>Common</label>
-      <label>Dicounted Room</label>
+      <label>Select Room Type. You may choose from: </label>   
+      <ul>
+        <li>Luxury</li>
+        <li>Common</li>
+        <li>Dicounted Room</li>
+      </ul>
+     
      <input class="form-control" type="text" name="roomType">
     </div>
     
@@ -29,3 +31,7 @@
     </form>
 </body>
 </html>
+
+<!--Here is the page that allows the user to input what type of room they'd like to book and the number of guests. 
+input class will allows users to enter those values. The input type=submit is the button that will allow users to submit their 
+input, which will then get processed in the requestMapping code within MainController.java-->
