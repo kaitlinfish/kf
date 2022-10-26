@@ -12,6 +12,6 @@ public class FlightServices {
     
     public String flightAdded(FlightItems newFlightItem)
     {
-       return "You've made a flight booking for: " + newFlightItem.getFlightClass() + " And the number of seats booked: " + newFlightItem.getNumOfSeats();
+       return "You've made a flight booking for: " + newFlightItem.getFlightClass() + ". And the number of seats booked: " + newFlightItem.getNumOfSeats();
     }
 }

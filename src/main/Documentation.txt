@@ -1,0 +1,26 @@
+QuickClick is a 3rd party reservation service provided through a web application. The purpose is for the user to be able to book flights 
+and hotel rooms through one website, saving the user time instead of going through multiple websites to book a room or website.
+
+When the user first enters QuickClip, they will be directed to the home page(index.html), 
+where the user will have the option to book a hotel room or book a flight. 
+
+If the user chooses to book a flight, They will click the "book a flight" button, which will direct them to a page where the user
+can choose what type of flight class they'd like to travel in, and how many seats they will need(addFlight.html). Once the user 
+is satisfied with their input, they will press the submit button. 
+
+The submit button will then direct them to a page that will display what the user entered(flightBookings.html). There will be two
+button links where the user can either book another flight(addFlight.html) or return to the homepage(index.html).
+
+If the user chooses to book another flight, the web application will direct them back to the add flight page, restarting the add flight 
+page. 
+
+Back to the homepage. If the user chose to book a room reservation, the user would click the "Make a hotel reservation page" button, 
+which would direct the user to a page where the user can choose what room type they would like to book and the number of guests that 
+will be staying with them(addHotel.html). Once the user is satisfied with what they've entered, the user will press the submit button.
+
+The submit button will take the user to a page that will display what the user entered(hotelBookings.html). There will be two button 
+links where the user can either book another room(addHotel.html) or return to the homepage(index.html).
+
+
+If the user chooses to book another room, the web application will direct them back to the add hotel page, restarting the add hotel 
+page. 

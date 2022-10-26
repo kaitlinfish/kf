@@ -11,6 +11,6 @@ public class HotelServices {
     
     public String hotelAdded(HotelItems newHotelItem)
     {
-        return "You booked a room for the room type: " + newHotelItem.getRoomType() + "And the number of guests staying with you are" + newHotelItem.getNumOfGuests();
+        return "You booked a room for the room type: " + newHotelItem.getRoomType() + ". And the number of guests staying with you are: " + newHotelItem.getNumOfGuests();
     }
 }
